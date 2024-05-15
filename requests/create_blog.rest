@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRvbmlsdSIsImlkIjoiNjY0MzdmNDNkMWVjZjgyZGYyZTk0ZGY1IiwiaWF0IjoxNzE1NzUzNzU2LCJleHAiOjE3MTU3NTczNTZ9.PdcWFi9FN__VJEq6l7SwMnSWxtRVMmsknehcgTja7Oc
+
+{
+    "title": "Tonin VSCodella Tehty Blogi Numero 2",
+    "author": "Toni Lundell",
+    "url": "toninsivu.fi",
+    "likes": 3
+}
